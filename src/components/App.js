@@ -13,7 +13,7 @@ function App() {
 
   const addContactHandler = (contact) => {
     console.log(contact);
-    setContacts([...contacts, {id: uuid(), ...contacts }]);
+    setContacts([...contacts, {id: uuid(), ...contact }]);
   };
 
 
